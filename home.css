@@ -18,11 +18,12 @@ main {
     width: 100vw;
     background-color: rgb(255, 255, 255);
     padding-block: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    text-align: center;
 
 }
 
-marquee {
+.marq p {
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
@@ -149,15 +150,79 @@ marquee {
     transform: translate(-30%,30%);
     font-style: oblique;
 }
-.prodhome{
-    display: flex;
-    height: 527px;
-    width: 100%;
-    padding: 20px;
+.prodhome-men{
+    padding-block: 25px;
+    height: 550px;
     background-color: black;
-    box-sizing: border-box;
 }
-.prodhome div{
-    margin-right: 5px;
+.prodhome-women{
+    padding-block: 25px;
+    height: 550px;
+    background-color: black;
+}
+.shopmen{
+    position: relative;
+    height: 282px;
+}
+.shopmen img{
+    width: 100vw;
+    height: 282px;
+}
+.txtmen {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 70%;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.shopwomen{
+    position: relative;
+    height: 282px;
+}
+
+.shopwomen img{
+    height: 282px;
+    width: 100vw;
+}
+.txtwomen {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 70%;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.bottom{
+    height: 330px;
+    background-color: black;
+    display: flex;
+    padding-top: 40px;
+    color: rgb(192, 192, 192);
+
     
+}
+.bottom a{
+    text-decoration: none;
+    color:rgb(192, 192, 192);
+    font-size: 0.9rem;
+
+}
+.bottom a:hover{
+    color: white;
+}
+.firstbottom{
+    margin-left: 70px;
+    margin-right: 30px;
+    
+}
+.secbottom{
+    margin-left: 70px;
+   
 }
